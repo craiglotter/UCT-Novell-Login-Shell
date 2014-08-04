@@ -1,0 +1,30 @@
+UCT Novell Login Shell
+
+UCT Novell Login Shell is a simple Console application written in C# that accesses the local UCT LDAP server to authenticate a given user against the tree as well as check that the user is in fact a member of a specified object group.
+
+Usage: UCT Novell Login Shell.exe <username> <password> <context> <group member
+ship> <error level>
+where:
+ - username: CN value to search on (e.g. clotter)
+ - password: password related to the <username>
+ - context: context container to search within (e.g. com.main.uct)
+ - group membership: desired attribute (e.g. CF_ALLSTAFF)
+ - error level: (full) (minimal) (none) denotes the level of status reporting
+
+Possible Results produced by the application are:
+Result: 00 - Failure. Unspecified Reason
+Result: 01 - Failure. Unable to Connect to any LDAP Server
+Result: 02 - Failure. User does not exist in Given Context
+Result: 03 - Failure. Incorrect or Expired Password for Given User
+Result: 04 - Failure. User is not a member of Given Group
+Result: 11 - Success. Authentication Complete
+
+Created by Craig Lotter, November 2005
+
+*********************************
+
+Project Details:
+
+Coded in C# .NET using Visual Studio .NET 2003
+Implements concepts such as LDAP programming.
+Level of Complexity: Simple

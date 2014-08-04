@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UCT Novell Login Shell", "UCT Novell Login Shell.csproj", "{E8C94237-8F1A-4FDC-B190-809F43A6E23D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E8C94237-8F1A-4FDC-B190-809F43A6E23D}.Debug.ActiveCfg = Debug|.NET
+		{E8C94237-8F1A-4FDC-B190-809F43A6E23D}.Debug.Build.0 = Debug|.NET
+		{E8C94237-8F1A-4FDC-B190-809F43A6E23D}.Release.ActiveCfg = Release|.NET
+		{E8C94237-8F1A-4FDC-B190-809F43A6E23D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
